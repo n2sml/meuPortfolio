@@ -1,22 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-//É a partir dessa chamada que o sistema começa a rodar: 
+import App from './App';
 
 export default class Index extends React.Component {
     render() {
         return (
-            <nav class="navbar navbar-dark bg-dark">
-                <span class="navbar-brand mb-0 h1">Navbar</span>
-            </nav>
+            <App></App>
         )
     }
 }
 
-
+//É a partir dessa chamada que o sistema começa a rodar: 
 ReactDOM.render(<Index />, document.getElementById('root'));
 
 
