@@ -5,15 +5,15 @@ import CaixaTitulo from './CaixaTitulo.js';
 import CardSobreMim from './CardSobreMim.js';
 
 class Container extends Component {
-  render() {
-    return (
-    <div className="container">		
-		<CaixaTitulo/>
-		<CarrosselProjetos/>
-		<CardSobreMim/>
-	</div>
-    );
-  }
-}
+	render() {
+		return (
+			<div className="container">
+			<CaixaTitulo />
+			<CarrosselProjetos />
+			<CardSobreMim />
+			</div>
+			);
+		}
+	}
 
-export default Container;
+	export default Container;

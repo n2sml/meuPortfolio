@@ -5,11 +5,13 @@ import MeuCarrossel from './MeuCarrossel.js';
 class CarrosselProjetos extends Component {
   render() {
     return (
-		<div className = "col-3">			
-			<b>Meus Projetos:</b>
-			<MeuCarrossel/>
-		</div>
-	
+      <div className="row">
+        <div className="col">
+          <h2 className = 'project-label'><b>Meus Projetos</b></h2>
+          <MeuCarrossel/>
+        </div>
+       
+      </div>
     );
   }
 }
