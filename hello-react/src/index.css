@@ -12,7 +12,7 @@ h1{
 	font-weight: bold;
 	font-size: 7em;
 	margin-top: 0.5em;
-    
+    transition: opacity 500ms ease-in;
 }
 
 /*
@@ -45,32 +45,13 @@ img {
     margin: auto;
 }
 
-.center{	
-	padding: 0 70px;
-	box-sizing: border-box;
-	position: absolute;
-	width: 100%;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-
-#green{
-	color:green;
-}
-
-#javaLogo{
-	color:red;
-}
-
 .container{
 	margin-bottom: 2em;
 }
 
 
 body{
-  background: url('coqueiros.jpg') center center no-repeat fixed; 
+  background: url('https://firebasestorage.googleapis.com/v0/b/portfolio-cbb4c.appspot.com/o/coqueiros.jpg?alt=media&token=ff8f4ef7-1adc-4d9c-9930-cd5a1c123bcf') center center no-repeat fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -81,8 +62,7 @@ body{
 	margin-top: 1em;
 	text-align: left;
 	font-family: 'Thasadith', sans-serif;
-	font-style: oblique;
-	
+	font-style: oblique;	
 	font-size: 1.5em;
 }
 
