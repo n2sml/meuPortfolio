@@ -15,7 +15,7 @@ export default class MeuCarrossel extends React.Component {
 							style={{ background: `url('${item.image}') no-repeat center center` }}
 						>
 							<div className="center">
-								<h2>{item.title}</h2>
+								<h3>{item.title}</h3>
 								<p>{item.description}</p>
 								<button>{item.button}</button>
 							</div>
