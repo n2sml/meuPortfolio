@@ -23,4 +23,14 @@ export default [
 		
 		
 	},	
+
+	{
+		title: 'Facebook',
+		description:
+			'https://www.facebook.com/n2sml/',
+		
+		image: 'https://firebasestorage.googleapis.com/v0/b/meuportfolio1.appspot.com/o/facebook_circle-512.png?alt=media&token=ac19b972-7c0f-47cf-933f-e51e0a8515b8',
+		
+		
+	},	
 ];

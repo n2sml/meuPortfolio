@@ -35,6 +35,32 @@ h3{
 	margin-top: 5%;
 }
 
+@media screen and (max-width: 600px) {
+	h3 {
+	  font-size: 3em;
+	}
+
+	#push{
+		font-size: 1.3em!important;
+	}
+
+	#pull{
+		font-size: 1.3em!important;
+	}
+
+	.contato-imagem{
+		width: 15%!important;
+		height: 15%!important;
+		margin-bottom: 5%!important;
+	}
+	.p{
+		
+		font-size: 0.5em !important;
+
+	}
+	
+  }
+
 /*
 Labels menores
 */
@@ -94,21 +120,3 @@ body{
 	width: 30%;
 	height: 30%;
 }
-
-.example-enter {
-	opacity: 0.01;
-  }
-  
-  .example-enter.example-enter-active {
-	opacity: 1;
-	transition: opacity 500ms ease-in;
-  }
-  
-  .example-leave {
-	opacity: 1;
-  }
-  
-  .example-leave.example-leave-active {
-	opacity: 0.01;
-	transition: opacity 300ms ease-in;
-  }

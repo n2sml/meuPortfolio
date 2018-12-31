@@ -12,7 +12,7 @@ export default class Contato extends Component {
       <Row>
         <h3>Contatos</h3>
         {DadosContato.map((item, index) => (
-          <Col xs={6} md={4}>
+          < Col sm={6} md={3} >
             <div className="contact-item">
               <h4><b>{item.title}</b></h4>
               <a href={item.description} title = {item.title}>

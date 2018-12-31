@@ -11,7 +11,7 @@ class CarrosselProjetos extends Component {
     return (
       <Row className = 'carousel-content'>
        <h3>Meus Projetos</h3>  
-        <Col xs={6} xsOffset={3}>
+        <Col xs={8} xsOffset={2}>
                  
           <MeuCarrossel/>
 
