@@ -3,24 +3,24 @@ export default [
 		title: 'Projeto Captura Ovo',
 		description:
 			'Software para a contagem de ovos do mosquito da Dengue utilizando visão computacional.',
-		button: 'Read More',
-		image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-cbb4c.appspot.com/o/plotado.png?alt=media&token=7c6b3dd4-9527-4ebc-9dbe-68d0089d01ea',
+		button: 'GitHub',
+		image: 'https://firebasestorage.googleapis.com/v0/b/meuportfolio1.appspot.com/o/plotado.png?alt=media&token=fd05e08e-b768-4a65-9aaf-9b02e380506e',
+		link: 'https://github.com/n2sml/capturaOvo'
 	},
 	{
 		title: 'Meu Portfólio (este site)',
 		description:
 			'Desenvolvido utilizando React, React-Bootstrap e hospedado no Firebase.',
-		button: 'Discover',
-		image: 'https://firebasestorage.googleapis.com/v0/b/portfolio-cbb4c.appspot.com/o/rb.png?alt=media&token=0d65ddb6-e089-4042-81a2-a01e270fb744',
-		
+		button: 'GitHub',
+		image: 'https://firebasestorage.googleapis.com/v0/b/meuportfolio1.appspot.com/o/react.png?alt=media&token=6bc855ec-48c6-4298-a148-a85f09b51bf4',
+		link: 'https://github.com/n2sml/meuPortfolio'
 	},
 	{
 		title: 'tooFast',
 		description:
 			'Projeto Front-end para serviço de gerenciamento de e-mails. Visa treinar HTML, CSS, Javascript, Dom e AJAX.',
-		button: 'Buy now',
-		image: 'https://i.imgur.com/DvmN8Hx.jpg',
-		user: 'Michael',
-		userProfile: 'https://s7.postimg.cc/6exjimijv/3_3x.png',
+		button: 'GutHub',
+		image: 'https://firebasestorage.googleapis.com/v0/b/meuportfolio1.appspot.com/o/email.png?alt=media&token=c474026a-d41f-404e-b0cb-a79a49f4f557',
+		link: 'https://github.com/n2sml/projetoEmail'
 	},	
 ];

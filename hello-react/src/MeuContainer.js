@@ -3,18 +3,20 @@ import React, { Component } from 'react';
 import CarrosselProjetos from './CarrosselProjetos.js';
 import CaixaTitulo from './CaixaTitulo.js';
 import CardSobreMim from './CardSobreMim.js';
+import Contato from './Contato.js'; 
 
-import {Container} from 'reactstrap';
+import {Grid} from 'react-bootstrap';
 
 
 class MeuContainer extends Component {
 	render() {
 		return (
-			<Container>
+			<Grid>
 				<CaixaTitulo />
 				<CardSobreMim />
 				<CarrosselProjetos />
-			</Container>
+				<Contato/>
+			</Grid>
 		);
 	}
 }

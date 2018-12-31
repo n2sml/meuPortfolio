@@ -1,19 +1,24 @@
 import React, { Component } from 'react';
 
+import { Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
+
 import MeuCarrossel from './MeuCarrossel.js';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'; 
 
 
 class CarrosselProjetos extends Component {
   render() {
     return (
-      <div className="row">
-        <div className="col-3">
-          <h3>Meus Projetos</h3>          
+      <Row className = 'carousel-content'>
+       <h3>Meus Projetos</h3>  
+        <Col xs={6} xsOffset={3}>
+                 
           <MeuCarrossel/>
-        </div>
+
+
+        </Col>
        
-      </div>
+      </Row>
     );
   }
 }

@@ -32,13 +32,15 @@ h3{
 	text-align: right;	
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 4em;
+	margin-top: 5%;
 }
 
 /*
 Labels menores
 */
 h4{
-
+font-family: 'Amatic SC', cursive;
+	font-size: 2em; 
 }
 
 img {
@@ -51,7 +53,7 @@ img {
 
 
 body{
-  background: url('https://firebasestorage.googleapis.com/v0/b/portfolio-cbb4c.appspot.com/o/coqueiros.jpg?alt=media&token=ff8f4ef7-1adc-4d9c-9930-cd5a1c123bcf') center center no-repeat fixed; 
+  background: url('https://firebasestorage.googleapis.com/v0/b/meuportfolio1.appspot.com/o/coqueiros.jpg?alt=media&token=bb5195ee-813d-4a3a-b7bc-6e8d508c2b52') center center no-repeat fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -61,16 +63,52 @@ body{
 #push{
 	margin-top: 1em;
 	text-align: left;
-	font-family: 'Thasadith', sans-serif;
-	font-style: oblique;	
+	font-family: 'Thasadith', sans-serif;	
 	font-size: 1.5em;
 }
 
 #pull{
 	margin-top: 1em;
 	text-align: left;
-	font-family: 'Thasadith', sans-serif;
-	font-style: oblique;
-	
+	font-family: 'Thasadith', sans-serif;	
 	font-size: 1.5em;
 }
+
+.center{
+	align: center;
+	text-align: bottom;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 1.3em;
+	position: absolute;
+		width: 100%;
+		top: 50%;
+}
+
+.carousel-content{
+	text-align: center;
+	align: center;
+	margin:auto;
+}
+
+.contato-imagem{
+	width: 30%;
+	height: 30%;
+}
+
+.example-enter {
+	opacity: 0.01;
+  }
+  
+  .example-enter.example-enter-active {
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+  }
+  
+  .example-leave {
+	opacity: 1;
+  }
+  
+  .example-leave.example-leave-active {
+	opacity: 0.01;
+	transition: opacity 300ms ease-in;
+  }

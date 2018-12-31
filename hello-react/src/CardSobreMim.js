@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Row } from 'reactstrap';
-import { Col } from 'reactstrap';
+import { Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 
 class CardSobreMim extends Component {
 	render() {

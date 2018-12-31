@@ -4,6 +4,8 @@ import 'react-animated-slider/build/horizontal.css';
 import content from './content.js'
 import './carousel.css'
 
+import { Button } from 'react-bootstrap';
+
 export default class MeuCarrossel extends React.Component {
 
 	render() {
@@ -11,14 +13,14 @@ export default class MeuCarrossel extends React.Component {
 			<div id="carousel">
 				<Slider autoplay={4000}> 
 					{content.map((item, index) => (
-						<div
+						<div class ='img-div'
 							key={index}
 							style={{ background: `url('${item.image}') no-repeat center center` }}
 						>
 							<div className="center">
-								<h3>{item.title}</h3>
-								<p>{item.description}</p>
-								<button>{item.button}</button>
+								<h4><b>{item.title}</b></h4>
+								<p><b>{item.description}</b></p>
+								<Button target="_blank" href = {item.link}>{item.button}</Button>
 							</div>
 						</div>
 					))}
